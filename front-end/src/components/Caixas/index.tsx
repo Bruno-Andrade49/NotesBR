@@ -25,7 +25,7 @@ function Caixa() {
           </Typography>
         </CardContent>
         <CardActions>
-          <Button size="small">Learn More</Button>
+          <Button size="small"> Notificar </Button>
         </CardActions>
       </Card>
       </>

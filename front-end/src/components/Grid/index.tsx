@@ -11,7 +11,13 @@ function GridPagina() {
     return (
         <>
             <div className="container">
-                <Grid container rowSpacing={4} columnSpacing={{ xs: 2, sm: 2, md: 3 }}>
+                <Grid container rowSpacing={5} columnSpacing={{ xs: 5, sm: 5, md: 50 }}>
+                    <Grid item lg={2} md={4} sm={6} xs={12}>
+                        <Caixas />
+                    </Grid>
+                    <Grid item lg={2} md={4} sm={6} xs={12}>
+                        <Caixas />
+                    </Grid>
                     <Grid item lg={2} md={4} sm={6} xs={12}>
                         <Caixas />
                     </Grid>
